@@ -1,0 +1,57 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	/*background-color: yellow;*/
+}
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 2px solid black;
+}
+#header-nav > .container {
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar-brand h1 {
+	/*margin-left: 0;*/
+	font-weight: bold;
+	font-size: 1.6em;
+}
+.navbar-toggler {
+	position: relative;
+	float: right;
+	/*background-color: black;*/
+	border: 2px solid black;
+}
+.navbar-toggler:focus {
+	background-color: white;
+}
+
+
+.row {
+	margin-bottom: 15px;
+}
+/*.row > div {
+	border: 2px solid red;
+	background-color: gray;
+}*/
+h2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+h3 {
+	text-align: center;
+	font-weight: bold;
+}
+.border-style {
+	border: 2px solid black;
+	background-color: gray;
+	margin-bottom: 20px;
+}
+hr {
+	width: 100%;
+	border-color: black;
+	height: 5px;
+	margin: 0;
+}
